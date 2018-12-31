@@ -1,0 +1,58 @@
+.LessonHeader {
+  padding-bottom: .5em;
+  display: flex;
+}
+.LessonHeader h2 {
+  margin: 0;
+  flex: 1;
+  display: flex;
+}
+.LessonHeader__number {
+  margin-right: .3em;
+}
+.LessonHeader__name {
+  flex: 1;
+}
+.LessonHeader input {
+  font: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: .3em;
+  border: none;
+  box-shadow: inset 1px 1px 4px rgba(0,0,0,0.3);
+}
+.LessonHeader__steps {
+  display: flex;
+  align-items: stretch;
+  margin-left: .3em;
+}
+.LessonHeader__step {
+  width: 2em;
+  line-height: 1.9em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin-right: .3em;
+  color: #444;
+  text-decoration: none;
+}
+.LessonHeader__step:last-child {
+  margin-right: 0;
+}
+.LessonHeader__step--active {
+  background-color: #333;
+  color: #fff;
+  cursor: default;
+}
+.LessonHeader__buttons {
+  display: flex;
+  align-items: stretch;
+  margin-left: .3em;
+}
+.LessonHeader__buttons button {
+  margin-right: .3em;
+}
+.LessonHeader__buttons button:last-child {
+  margin-right: 0;
+}

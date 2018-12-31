@@ -1,0 +1,32 @@
+.LessonsToolbar {
+  border: 2px dotted #000;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+.LessonsToolbar__file {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.LessonsToolbar__file > button {
+  z-index: 1;
+}
+.LessonsToolbar__file > input[type=file] {
+  opacity: 0;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.LessonsToolbar a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+.LessonsToolbar a:hover {
+  color: #4078C0;
+  outline: 0px none;
+}
